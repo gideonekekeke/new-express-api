@@ -24,7 +24,7 @@ mongoose.connection
     console.log("connected successfully....");
   })
   .on("error", () => {
-    console.log("error occured");
+    console.log("there is a big fatal error here");
   });
 
 //enabling our responds to be returned in json format
