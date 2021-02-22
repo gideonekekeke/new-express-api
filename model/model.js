@@ -13,7 +13,6 @@ const studentSchema = mongoose.Schema({
 
   picture: {
     type: String,
-    required: true,
   },
 });
 
